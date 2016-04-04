@@ -1,0 +1,24 @@
+{
+    "name": "frdmn/php-alfred",
+    "description": "Library to create Alfred workflows using PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Ferguson",
+            "email": "jdfwarrior@gmail.com"
+        },
+        {
+            "name": "Jonas Friedmann",
+            "email": "j@frd.mn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "frdmn\\PhpAlfred": "src"
+        }
+    }
+}
