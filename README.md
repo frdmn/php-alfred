@@ -41,4 +41,4 @@ print $w->toXML($array);
 
 ## Version
 
-0.3.4
+0.3.5
