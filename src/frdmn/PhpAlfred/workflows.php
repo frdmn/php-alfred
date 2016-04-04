@@ -180,7 +180,7 @@ class Workflows {
 			return false;
 		endif;
 
-		$items = new SimpleXMLElement("<items></items>"); 	// Create new XML element
+		$items = new \SimpleXMLElement("<items></items>"); 	// Create new XML element
 
 		foreach( $a as $b ):								// Lop through each object in the array
 			$c = $items->addChild( 'item' );				// Add a new 'item' element for each object
