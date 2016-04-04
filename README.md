@@ -4,6 +4,23 @@ Forked from @[jdfwarrior/Workflows](https://github.com/jdfwarrior/Workflows) to 
 
 See [dferg.us](http://dferg.us/workflows-class) for full class documentation.
 
+## Usage
+
+```php
+// Create new workflow instance
+$alfred = new \frdmn\PhpAlfred\Workflows();
+
+// Construct array with workflow data
+$array = array(
+  'uid'   => 0,
+  'arg'   => 'test',
+  'title' => 'Title',
+);
+
+// Print XML
+print $w->toXML($array);
+```
+
 ## Installation
 
 1. Install using Composer:  
