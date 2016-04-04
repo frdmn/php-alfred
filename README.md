@@ -6,7 +6,7 @@ See [dferg.us](http://dferg.us/workflows-class) for full class documentation.
 
 ## Installation
 
-1. Install using Composer:
+1. Install using Composer:  
   `composer require frdmn/php-alfred`
 
 ## Contributing
