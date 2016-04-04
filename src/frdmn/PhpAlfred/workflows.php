@@ -1,4 +1,7 @@
 <?php
+
+namespace frdmn\PhpAlfred;
+
 /**
 * Name: 		Workflows
 * Description: 	This PHP class object provides several useful functions for retrieving, parsing,
@@ -305,7 +308,7 @@ class Workflows {
 			if ( file_exists( $this->path.'/'.$b ) ):
 				$b = $this->path.'/'.$b;
 			endif;
- 		elseif ( file_exists( $this->data."/".$b ) ):
+		elseif ( file_exists( $this->data."/".$b ) ):
 			$b = $this->data."/".$b;
 		elseif ( file_exists( $this->cache."/".$b ) ):
 			$b = $this->cache."/".$b;
