@@ -7,18 +7,23 @@ See [dferg.us](http://dferg.us/workflows-class) for full class documentation.
 ## Usage
 
 ```php
+<?php
+require __DIR__ . '/vendor/autoload.php';
+
 // Create new workflow instance
 $alfred = new \frdmn\PhpAlfred\Workflows();
 
 // Construct array with workflow data
-$array = array(
-  'uid'   => 0,
-  'arg'   => 'test',
-  'title' => 'Title',
-);
+$array = [
+    [
+      'uid'   => 0,
+      'arg'   => 'test',
+      'title' => 'Title'
+    ]
+];
 
 // Print XML
-print $w->toXML($array);
+print $alfred->toXML($array);
 ```
 
 ## Installation
